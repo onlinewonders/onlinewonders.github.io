@@ -472,6 +472,16 @@ nav {
   margin: 0 auto;
 }
 
+.hover-effect .description {
+  position: relative;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  padding-left: 20px;
+  letter-spacing: 0.5px;
+}
+
 .modal-body input {
   border-radius: 5px;
   padding-left: 15px;

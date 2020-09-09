@@ -16,6 +16,9 @@ jQuery(document).ready(function($) {
             modContent.removeClass('modal-animated-out').addClass('modal-animated-in');
           });
           
+          $('.btn.submit').on('click', function(e) {
+            alert("Service down");
+          });
           // close modal when click on close button or somewhere out the modal content 
           $(document).on('click', function(e) {
             var target = $(e.target);
